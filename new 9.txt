@@ -1,0 +1,374 @@
+Hello Ben,
+==============================================
+Automation Status for Today (24th June 2020)
+==============================================
+Success
+==============
+API V1 and API V2 script is shared with Anil to test with different combinations.
+3 AP1 V2.1: Get Labels
+3.3 Automaton script to Validate the response of get Rate API V2.1: Done
+4. AP1 V2.1: Add shipment
+4.1 Validate that Status code after hit the Add shipment API:Done
+==============================================
+
+===============
+In Progress
+===============
+4 AP1 V2.1: AddShipment:
+4.2 Automation Script to validate the API response of the Add Shipment:In Progress
+=============================================
+
+=============================================
+Plan for Next Working Day 25th June 2020
+=============================================
+1. Complete the automation script for the rest of the APIs of V2.1
+2. Start to work on the setup OF CI
+=============================================  
+
+
+
+NoteOne
+https://idrivelogistics.sharepoint.com/sites/Development/_layouts/15/Doc.aspx?sourcedoc=
+{5381b6a2-f629-48cd-a3c4-287e7abe8983}&action=edit&wd=target%28Stand%20up.one%7C52a00679-b7dc-46b6-9373-cf89f
+3c70b24%2F6%5C%2F15%20-%206%5C%2F19%20ANIL%7C60263fa1-bee0-43c1-999a-0d598cec3af3%2F%29
+
+
+
+2523	USPS via ShipCaddie
+2524	UPS - TEST
+2526	USPS - Easy Post
+2543	DHL Express
+2612	USPS - Stamps
+2613	USPS - Endicia
+2879	UPS-XF5480 - VAP
+3040	FEDEX - INTERNAL
+3222	DHL eCommerce
+4715	Kopari Test
+
+
+207
+C:\Program Files\nodejs
+https://prnt.sc/t69xuh
+
+1.Verify that 'Internal contracts' tab is shown only for Global Admin and Internal Admin users with client ID 0.
+Status: Working as expected.
+
+2.Verify 'Clone as a Template Contract' option while cloning contract should be shown to only Global Admin and Internal Admin only when clientID 0.
+Status: Working as expected.
+
+3.Verify clone contract by login with all type of users.
+Status: Working as expected.
+
+4.Verify the link/unlink of the internal contracts and other types of contracts
+Status: Working as expected.
+
+
+
+Hello Ben,
+==============================================
+Automation Status for Today (26th June 2020)
+==============================================
+Success
+==============
+API V1,API V2 and V2.1 scripts is shared with Anil to test with different combinations.
+3 AP1 V2.1: Shipment Information
+3.4 Automation Script to validate the Shipment Information API's status code Done
+3.5 API V2.1 Automation Script to validate the API response of Shipment Information.Done
+3.6 Created document of Continuous Integration Process. Done
+==============================================
+
+===============
+In Progress
+===============
+4 AP1 V2.1: Get Labels:
+4.2 Automation Script to validate the response of Get Labels with different combinations:In Progress
+=============================================
+
+=============================================
+Plan for Next Working Day 29th June 2020
+=============================================
+1. Start to work on the setup OF CI
+=============================================
+
+
+1.Fetching Products and Contacts
+2.Import Orders 
+3.Import shipment
+4.Addshipping Site
+5.Add Users
+6.Save/Add Shipments
+
+
+
+
+
+1. When I adding the details of the user while adding the new user. Instead of Failed Can we show message like "User is already exist."
+    Currently I am getting https://prnt.sc/t6y1sc
+2.
+
+1. Need to put the line under the Client. On pop-up
+2. Need to show only those account for which account is available.
+3. Need to provide edit for Account group for GA and IA
+4. Count of the account is not correct, need to check. 
+
+
+
+Hello Ben,
+==============================================
+Automation Status for Today (29th June 2020)
+==============================================
+Success
+==============
+API V1,API V2 and V2.1 scripts is shared with Anil to test with different combinations.
+4 AP1 V2.1: Get Labels
+4.2 Validate the API response of the Get Labels API: Done
+
+==============================================
+
+===============
+In Progress
+===============
+1. CI set up:
+    Integration of the automation script with Jenkins
+=============================================
+
+=============================================
+Plan for Next Working Day 30th June 2020
+=============================================
+2. Complete the CI set up and test at own end.
+=============================================
+
+
+
+
+
+
+1. Need to put the line under the Client. On pop-up
+2. Need to show only those account for which account is available.
+3. Need to provide edit for Account group for GA and IA
+4. Count of the account is not correct, need to check. 
+
+
+
+
+
+
+1.Disable the 'Export' and Column options icon when there is no contract added.
+https://prnt.sc/t8wf1u
+
+2.Rate Caps Details:Delete icon is not aligned with rate caps records
+There is not any confirmation message when user taps on 'Delete' icon for Rate Caps record.
+https://prnt.sc/t8wigp
+
+
+3.Apply icon remains enabled  after appling the discount for any details record.
+Need to fix all the details.
+https://prnt.sc/t8ww64
+
+
+4.When I am switching from account group toanother account group then 'Filter icon is become enabled. 
+https://prnt.sc/t8xanz
+Same issue  is when Iam switching from one time band to another time band.
+and one revenue band to another revenue band.
+
+
+
+
+http://prntscr.com/t91zp0
+
+
+
+
+
+
+Hello Ben,
+==============================================
+Automation Status for Today (30th June 2020)
+==============================================
+Success
+==============
+API V1, API V2 and V2.1 scripts is shared with Anil to test at his end.
+1. CI set up:
+    1.1 Integration of the automation script with Jenkins: Done
+
+==============================================
+
+===============
+In Progress
+===============
+1. CI set up:
+1.2 Integrate web hook on the UAT repo.
+Dependency: I need the UAT repo details from Ankit. He was busy on fixing the priority issues
+So He will provide me all requied details tommorrow. After that I can complete
+the CI Process tomorrow.
+=============================================
+
+=============================================
+Plan for Next Working Day 1st July 2020
+=============================================
+2. Complete the CI set up and test at own end.
+=============================================
+
+
+1. http://prntscr.com/t9kw7o
+
+1. When there is no client available,We need to show 'No clients to display'
+instead of 'No records to display'.
+Refer screenshot for more clarity.
+http://prntscr.com/t9ujq9
+
+
+2. Search client field should be disabled when there is not any client.
+http://prntscr.com/t9ulaa Refer screenshot
+While cloning contract as welll when I search for client and there is not any client we need to
+show No clients to display'.
+
+
+
+@Vikas
+1. https://prnt.sc/t9yb5t
+Need to fix all the records where we apply discount.
+Please ask me if any query.
+
+2.Go to ContractManeger?Freight details
+Add mutiple records. and after that perfom sorting on added records.
+Its not working and added record also removed.
+When I retrun back again on this page then records appear.
+
+
+
+1. On Resetting password we are showing two sucess message
+one is 'Successful' and other is Your password has beed reset successfully.
+Need to remove the Successful which is dislaying on the bottom of the screen.
+
+2.https://prnt.sc/tae236
+
+3.https://prnt.sc/taetga
+
+
+
+
+
+Hello Ben,
+==============================================
+*Automation Status for Today (2nd July 2020)*
+==============================================
+
+==============
+*In Progress*
+==============
+1. CI Set up
+1.1 Integration of the script with Jenkins: Done
+1.2 Setting up of web hook on azure repo: In Progress
+================================================   
+	Hurdle: Facing issues to make jenkins
+	URL public in order to integrate webhook with azure repo.
+	
+	Status: Tried many alternates but didn't work.
+	Doing R&D to make jenkins URL public.
+=================================================
+rajiv/******
+
+
+
+
+
+Hello Ben,
+==============================================
+*Automation Status for Today (6th July 2020)*
+==============================================
+
+==============================================
+*Reference link of the CI Process*
+==============================================
+
+==============================================
+
+==============
+*Success*
+==============
+1. CI Set up
+1.1 Run automation script periodically using CI tool Jenkins: Done
+1.2 Notification Email on each success/failure after the script run: Done
+===============================================
+
+
+==============
+*In Progress*
+==============
+1.CI Set up
+1.2 Run automation script automatically when development team commit the 
+code to the shared repository.
+================================================   
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
